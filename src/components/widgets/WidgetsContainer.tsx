@@ -6,9 +6,11 @@ import { LAYOUT_STORAGE_KEY, widgetsDefaultLayout } from 'helpers/config.ts'
 import React from 'react'
 import { type Layout, Responsive, WidthProvider } from 'react-grid-layout'
 
-const ResponsiveReactGridLayout = WidthProvider(Responsive)
-
 const WidgetsContainer = () => {
+  const ResponsiveReactGridLayout = React.useMemo(
+    () => WidthProvider(Responsive),
+    []
+  )
   const [layout, saveLayout] = useLocalStorage<Layout[]>(
     LAYOUT_STORAGE_KEY,
     widgetsDefaultLayout
@@ -25,7 +27,7 @@ const WidgetsContainer = () => {
     <div className="p-1 pt-[142px] md:pt-[112px]">
       <ResponsiveReactGridLayout
         layouts={{ lg: layout }}
-        breakpoints={{ lg: 1200, md: 996, sm: 768, xs: 480, xxs: 0 }}
+        breakpoints={{ lg: 1280, md: 996, sm: 768, xs: 480, xxs: 0 }}
         cols={{ lg: 12, md: 10, sm: 6, xs: 4, xxs: 2 }}
         onLayoutChange={handleLayoutChange}
       >
