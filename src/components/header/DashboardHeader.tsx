@@ -15,7 +15,7 @@ const DashboardHeader = ({ title }: DashboardHeaderProps) => {
   }
 
   return (
-    <header className="bg-white">
+    <header className="bg-white border-b border-gray-300">
       <DashboardHeaderTop
         title={title}
         mode={mode}
