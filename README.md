@@ -20,6 +20,7 @@ The app is designed with a component-based approach in mind.
 - `react-grid-layout` for the grid layout of the widgets, providing built-in drag-and-drop and responsive layout functionality.
 - `use-local-storage` for seamless integration with localStorage state.
 - `figtree` font for a "Monday-like" typography style.
+- Biome - linter and formatter for consistent code style.
 - Various Vite plugins for React, real-time type checking, and simplified import paths.  
 
 
