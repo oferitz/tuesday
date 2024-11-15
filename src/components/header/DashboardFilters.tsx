@@ -1,8 +1,8 @@
 const DashboardFilters = () => {
   return (
-    <div className="flex items-center gap-4">
+    <div className="flex items-center gap-4 text-sm">
       <input
-        className="border border-gray-200 rounded px-2 py-1 text-sm"
+        className="border border-gray-200 rounded px-2 py-1"
         placeholder="Type to filter"
       />
       <button>Save</button>
