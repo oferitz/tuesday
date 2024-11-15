@@ -13,7 +13,7 @@ const DashboardHeaderTop = ({
 }: DashboardHeaderTopProps) => {
   return (
     <div className="flex items-center justify-between py-3 px-8 border-b border-gray-200">
-      <h1 className="text-3xl font-medium">{title}</h1>
+      <h1 className="text-xl md:text-3xl font-medium">{title}</h1>
 
       <div className="flex gap-0">
         <ToggleButton
