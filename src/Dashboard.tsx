@@ -1,4 +1,4 @@
-import DashboardHeader from "components/DashboardHeader.tsx";
+import DashboardHeader from 'components/header/DashboardHeader.tsx'
 
 function Dashboard() {
   return (
