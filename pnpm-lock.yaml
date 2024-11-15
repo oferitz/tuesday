@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@fontsource-variable/figtree':
+        specifier: ^5.1.1
+        version: 5.1.1
       '@uidotdev/usehooks':
         specifier: ^2.4.1
         version: 2.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -383,6 +386,9 @@ packages:
   '@eslint/plugin-kit@0.2.3':
     resolution: {integrity: sha512-2b/g5hRmpbb1o4GnTZax9N9m0FXzz9OV42ZzI4rDDMDuHUqigAiQCEWChBWCY4ztAGVRjoWT19v0yMmc5/L5kA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@fontsource-variable/figtree@5.1.1':
+    resolution: {integrity: sha512-t1rc0tZ5oFzVk5xBQ88Y12gnCzQKNXs8XPaU3IAeliCYRubCqOk+8UW7b0erqgDibaJpgAcnSFWRrWIxmY5++g==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -1750,6 +1756,8 @@ snapshots:
     dependencies:
       levn: 0.4.1
     optional: true
+
+  '@fontsource-variable/figtree@5.1.1': {}
 
   '@humanfs/core@0.19.1':
     optional: true
